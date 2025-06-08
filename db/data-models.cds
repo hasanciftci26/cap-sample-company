@@ -9,6 +9,9 @@ entity Employees {
         salary           : Decimal(13, 2);
         level            : Integer;
         isActive         : Boolean;
+        workingStartTime : Time;
+        totalExperience  : Integer64;
+        contractSignedAt : Timestamp;
         toCountry        : Association[1..1] to Countries
                                on toCountry.code = $self.countryCode;
         toDepartment     : Association[1..1] to Departments

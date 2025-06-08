@@ -55,6 +55,9 @@ annotate CompanyManagement.Employees with {
     isActive         @Common.Label: 'Active';
     level            @Common.Label: 'Level';
     salary           @Common.Label: 'Salary';
+    contractSignedAt @Common.Label: 'Contract Signed At';
+    workingStartTime @Common.Label: 'Working Start Time';
+    totalExperience  @Common.Label: 'Total Experience';
     toCountry        @Common.Label: 'Employee Country';
     toDepartment     @Common.Label: 'Employee Department';
     toCertifications @Common.Label: 'Employee Certifications';
